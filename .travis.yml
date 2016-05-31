@@ -1,5 +1,8 @@
 language: ruby
 rvm:
-  - 2.2
+- 2.2
 
-script: bin/deploy
+deploy:
+  provider: heroku
+  api_key:
+    secure: Ne3Y2TznF4shX7pm5rjz2bIVW9LMFmqgPf5mfYP23/r/sVOfgaZ1sZLAHgn9PfR8NH/u+zQ/EwRqGcr1WdPVJIhY3gE3TLpAhhlMFET8CqlzzS7FI9yPkHIH/9LsngmbhqqdGjQ8pa5srALOP4WyigXgp/2RlhxMtzJlVHT6NaSTrc83lxAb72vwYnDlvFjysGL22Wm51QqzNfIPpTJfv9pIQE1e0PxIh9J1rvATRKm8pbidrRyHJoJ/jRSbEWGwwiixMRNgnt2LtuRcZGEGAyczwPLm+ke2728rTwNzs9wdrx7hG8KRJ5lk+kqKBJiQMmT2sBCcoBpiLnZeG4mCD7WM7kBLmslseH6F+gV5j1nExp/ChWkuZkC2ucMsOry4xkTpdoLL3siQt9t0/tjZVqqLUhBLqG9vE03tJMvkEi1qiTSWJkEtip6AP+r3yPMbp1eWh7JABbsGoLui8z2+x/HkfkXVrTP9ylDnYRRGeaWiEVtBwn/nYmT94+2DqBBMiHM5irfJteWT7WWl5XPRboKRpq/WSIm/cZvAn1d4r71MG0N9oaTDu5k1zo3FXhCzdyPws3XX47OjSBZ+CxDmAZu04y0bptrF2FNWXxeB0TfSO8TXSEpRrvilBw30ea3QgvnAOy3YsP/OTKEsEUa7wHSxB7fGaUWqHCBdmKk3zhs=
