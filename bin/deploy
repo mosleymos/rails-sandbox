@@ -1,0 +1,4 @@
+#!/bin/sh -ex
+
+git push https://git.heroku.com/rails-sandbox-captive.git master
+heroku run rake db:migrate --app rails-sandbox-captive --exit-code
